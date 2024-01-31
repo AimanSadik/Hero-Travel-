@@ -46,9 +46,14 @@
                         <li><a>Contacts</a></li>
                     </ul>
                 </div>
-                <div>
-                    <a class="text-4xl font-extrabold "><span class="text-[#131318]">Hero </span><span
-                            class="text-[#FF5400]">Travel's</span></a>
+                <div class="flex gap-2 justify-center items-center">
+                    <div>
+                        <img src="images/plane.png" alt="">
+                    </div>
+                    <div>
+                        <a class="text-4xl font-extrabold "><span class="text-[#131318]">Hero </span><span
+                                class="text-[#FF5400]">Travel's</span></a>
+                    </div>
                 </div>
             </div>
             <div class="text-[#FF5400] text-2xl font-bold hidden lg:flex">
@@ -69,10 +74,12 @@
 
         <div
             class="lg:h-[600px] mt-6 w-full rounded-2xl flex justify-center items-center text-center bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.1)),url(./images/banner.png)] bg-cover bg-center">
-            <div>
+            <div class="lg:p-8 p-4">
                 <h2 class="text-white text-7xl mb-7 font-extrabold">Explore Your Travel</h2>
                 <p class="text-lg text-white font-normal">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies
                     dolor adipiscing. In et odio <br>enim ac quis sapien urna eu phasellus.</p>
+
+
                 <div class="flex flex-col rounded-2xl gap-3 lg:flex-row mt-8">
                     <div>
                         <input type="text" placeholder="Where to go" class="input w-full max-w-xs" />
@@ -104,18 +111,100 @@
 
     <main>
         <!-- popular tours -->
-        <section class="container my-10 mx-auto px-4 lg:px-8">
-            <div class="flex justify-between">
+        <section class="container my-14 mx-auto px-4 lg:px-8">
+            <div class="lg:flex lg:justify-between gap-5">
                 <div>
-                    
+                    <h3 class="text-[#131318] text-4xl font-extrabold">Our Popular Tours</h3>
+                    <p class="text-[#131318] opacity-70 text-lg font-medium mt-8 mb-8">Dolor sit amet consectetur. Diam
+                        volutpat
+                        neque habitasse pharetra odio sit <br> massa. Sodales dictumst nec nibh pellentesque.</p>
+
+                    <div class="text-[#131318] opacity-70 text-lg font-medium mb-4">
+                        <ol type="a">
+                            <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna <br> nullam odio neque
+                                diam. Sociis erat at .</li>
+                            <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea <br> porta lacus.
+                                Lectus suspendisse nullam.</li>
+                            <li> Accumsan eget et turpis praesent lorem egestas enim elit <br> bibendum. Risus at in.
+                            </li>
+
+                        </ol>
+                    </div>
+
+                    <p class="text-[#131318] opacity-70 text-lg font-medium mb-9">Amet consectetur. Vulputate commodo
+                        felis molestie risus <br>
+                        ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. <br> Habitant
+                        adipiscing risus natoque aliquet. Id bibendum nunc senectus <br> semper tincidunt. </p>
+
+
+                    <button class="btn bg-[#FF5400] text-white text-xl font-extrabold mb-8">Read More</button>
 
                 </div>
 
                 <div class="">
-                    <img src="images/Rectangle 4.png" alt="">
+                    <img class="md:h-[400px] md:[300px] lg:h-[600px]" src="images/Rectangle 4.png" alt="">
                 </div>
 
             </div>
+
+        </section>
+
+        <!-- Destination Section -->
+
+        <section class="container my-14 mx-auto px-4 lg:px-8">
+
+            <div class="flex-col justify-center items-center text-center">
+                <h3 class="text-[#131318] lg:text-5xl text-5xl lg:font-extrabold font-bold">Choose Your Destination
+                </h3>
+                <p class="text-[#131318] opacity-70 font-medium text-xl mt-6 mb-8">Dolor sit amet consectetur. Diam
+                    volutpat neque habitasse pharetra odio sit massa. <br> Sodales dictumst nec nibh pellentesque.</p>
+            </div>
+
+            <!-- pic section -->
+
+            <div>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <div
+                        class="h-[350px] w-[full] flex flex-col justify-center text-center items-center rounded-3xl bg-[linear-gradient(45deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(./images/1.png)] bg-cover bg-center">
+                        <h3 class=" text-white text-4xl font-extrabold ">Maldives</h3>
+                    </div>
+                    <div
+                        class="h-[350px] w-[full] flex flex-col justify-center text-center items-center rounded-3xl bg-[linear-gradient(45deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(./images/5.png)] bg-cover bg-center">
+                        <h3 class=" text-white text-4xl font-extrabold ">Indonesia</h3>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-8">
+
+                    <div
+                        class="h-[350px] w-[full] flex flex-col justify-center text-center items-center rounded-3xl bg-[linear-gradient(45deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(./images/2.png)] bg-cover bg-center">
+                        <h3 class=" text-white text-4xl font-extrabold ">Srilanka</h3>
+                    </div>
+                    <div
+                        class="h-[350px] w-[full] flex flex-col justify-center text-center items-center rounded-3xl bg-[linear-gradient(45deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(./images/3.png)] bg-cover bg-center">
+                        <h3 class=" text-white text-4xl font-extrabold ">North-America</h3>
+                    </div>
+                    <div
+                        class="h-[350px] w-[full] flex flex-col justify-center text-center items-center rounded-3xl bg-[linear-gradient(45deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(./images/6.png)] bg-cover bg-center">
+                        <h3 class=" text-white text-4xl font-extrabold ">Kashmir</h3>
+                    </div>
+
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8">
+                    <div
+                        class="h-[350px] w-[full] flex flex-col justify-center text-center items-center rounded-3xl bg-[linear-gradient(45deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(./images/8.png)] bg-cover bg-center">
+                        <h3 class=" text-white text-4xl font-extrabold ">Bangladesh</h3>
+                    </div>
+                    <div
+                        class="h-[350px] w-[full] flex flex-col justify-center text-center items-center rounded-3xl bg-[linear-gradient(45deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(./images/7.png)] bg-cover bg-center">
+                        <h3 class=" text-white text-4xl font-extrabold ">Bandarban</h3>
+                    </div>
+                </div>
+            </div>
+
+
+
 
         </section>
 
